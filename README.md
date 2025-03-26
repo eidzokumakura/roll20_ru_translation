@@ -33,7 +33,7 @@
 
 1. В Roll20 откройте лист персонажа
 2. Добавьте нужные заклинания через компендиум
-3. Нажмите иконку ![Кнопка](https://github.com/eidzokumakura/roll20_ru_translation/blob/main/Roll20%20RU%20Translation/popout-icon.png) в левом верхнем углу блока заклинаний
+3. Нажмите иконку ![Кнопка](https://github.com/eidzokumakura/roll20_ru_translation/blob/main/Roll20%20RU%20Translation/popout-icon.png) в левом верхнем углу листа персонажа
 4. В открывшемся окне дождитесь перевода
 
 ## FAQ
