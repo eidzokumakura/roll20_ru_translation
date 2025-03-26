@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "service_worker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "roll20-ru.css" ],
+      "js": [ "roll20-ru.js" ],
+      "matches": [ "https://app.roll20.net/editor/character/*" ]
+   } ],
+   "description": "Перевод заклинаний на русский язык!",
+   "icons": {
+    "128": "./logo/logo128x128.png",
+    "16": "./logo/logo16x16.png",
+    "32": "./logo/logo32x32.png",
+    "48": "./logo/logo48x48.png"
+   },
+   "host_permissions": [ "https://dnd.su/" ],
+   "manifest_version": 3,
+   "name": "Roll20 RU Translation",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
