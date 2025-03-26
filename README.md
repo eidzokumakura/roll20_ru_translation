@@ -1,6 +1,6 @@
 # Roll20 RU Translation
 
-![Логотип расширения](https://github.com/eidzokumakura/roll20_ru_translation/blob/main/roll20_ru_logo.png)
+![Логотип расширения](https://github.com/eidzokumakura/roll20_ru_translation/blob/main/Roll20%20RU%20Translation/logo/logo128x128.png)
 
 Браузерное расширение для автоматического перевода заклинаний в листе персонажа Roll20.
 
