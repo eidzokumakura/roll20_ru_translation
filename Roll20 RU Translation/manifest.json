@@ -8,10 +8,10 @@
    "content_scripts": [ {
       "all_frames": true,
       "css": [ "roll20-ru.css" ],
-      "js": [ "roll20-ru.js" ],
+      "js": [ "roll20-ru.js", "roll20-ru-bestiary.js" ],
       "matches": [ "https://app.roll20.net/editor/character/*" ]
    } ],
-   "description": "Перевод заклинаний на русский язык!",
+   "description": "Перевод заклинаний и бестиария на русский язык!",
    "icons": {
     "128": "./logo/logo128x128.png",
     "16": "./logo/logo16x16.png",
@@ -23,5 +23,5 @@
    "name": "Roll20 RU Translation",
    "permissions": [ "storage" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+   "version": "1.1"
 }

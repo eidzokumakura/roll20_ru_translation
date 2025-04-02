@@ -157,7 +157,15 @@ function setFieldValue(node, name, value) {
 
 document.addEventListener("readystatechange", () => {
     console.log(document.readyState);
-    if (document.readyState === "complete")
-        translateSpells();
+    if (document.readyState === "complete") {
+        // Проверяем состояние переключателя заклинаний
+        chrome.storage.local.get(['translateSpells'], (result) => {
+            const shouldTranslate = result.translateSpells ?? true; // true по умолчанию
+            if (shouldTranslate) {
+                translateSpells();
+            } else {
+                console.log('Перевод заклинаний отключен в настройках');
+            }
+        });
+    }
 });
-
